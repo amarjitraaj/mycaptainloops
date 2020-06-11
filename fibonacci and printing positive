@@ -1,0 +1,34 @@
+"""
+This code is for fibonacci
+"""
+
+print("Enter the number of sequence to be printed(pls no greaterandequal to 3 )")
+s=input()
+m=0
+print(m)
+n=1
+print(n)
+for i in range(int(s)):
+    o=n
+    n=m+n
+    m=o
+    print(n)
+    
+    
+"""
+This is for finding positive number 
+"""
+    
+print("Enter the list of numbers")
+l.append(int(input()))
+
+for i in range(len(l)):
+    if l[i]<0:
+        del l[i]
+    else:
+        print(l[i])
+    
+    
+"""
+over
+"""
